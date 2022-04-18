@@ -1,3 +1,4 @@
 rootProject.name = 'java-design-patterns'
 
 include 'visitor-pattern'
+include 'command-pattern'

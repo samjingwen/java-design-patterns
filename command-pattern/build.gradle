@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'io.samjingwen.visitor'
+group 'io.samjingwen.command'
 version '1.0-SNAPSHOT'
 
 configurations {

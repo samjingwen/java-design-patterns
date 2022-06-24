@@ -4,3 +4,5 @@ include ':behavioural:visitor-pattern'
 include ':behavioural:command-pattern'
 include ':behavioural:chain-of-responsibility-pattern'
 include ':behavioural:state-pattern'
+
+include ':creational:singleton-pattern'

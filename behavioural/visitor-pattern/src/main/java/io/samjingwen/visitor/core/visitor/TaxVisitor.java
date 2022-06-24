@@ -3,9 +3,8 @@ package io.samjingwen.visitor.core.visitor;
 import io.samjingwen.visitor.core.visitable.LiquorVisitable;
 import io.samjingwen.visitor.core.visitable.NecessityVisitable;
 import io.samjingwen.visitor.core.visitable.TobaccoVisitable;
-import lombok.extern.slf4j.Slf4j;
-
 import java.text.DecimalFormat;
+import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class TaxVisitor implements Visitor {

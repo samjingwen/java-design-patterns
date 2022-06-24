@@ -1,0 +1,5 @@
+plugins {
+    id 'io.samjingwen.java-conventions'
+}
+
+group 'io.samjingwen.state'

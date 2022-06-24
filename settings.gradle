@@ -1,5 +1,6 @@
 rootProject.name = 'java-design-patterns'
 
-include 'visitor-pattern'
-include 'command-pattern'
-include 'chain-of-responsibility-pattern'
+include ':behavioural:visitor-pattern'
+include ':behavioural:command-pattern'
+include ':behavioural:chain-of-responsibility-pattern'
+include ':behavioural:state-pattern'

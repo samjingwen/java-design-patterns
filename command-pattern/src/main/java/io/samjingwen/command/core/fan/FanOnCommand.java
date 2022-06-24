@@ -4,8 +4,8 @@ import io.samjingwen.command.core.Command;
 
 public record FanOnCommand(Fan fan) implements Command {
 
-    @Override
-    public void execute() {
-        fan.high();
-    }
+  @Override
+  public void execute() {
+    fan.high();
+  }
 }

@@ -6,8 +6,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public abstract class AuthenticationProcessor {
 
-    protected final AuthenticationProcessor next;
+  protected final AuthenticationProcessor next;
 
-    public abstract boolean isAuthorized(AuthenticationProvider authenticationProvider);
-
+  public abstract boolean isAuthorized(AuthenticationProvider authenticationProvider);
 }

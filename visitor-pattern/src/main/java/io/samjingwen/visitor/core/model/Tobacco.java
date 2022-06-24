@@ -6,5 +6,5 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public final class Tobacco {
-    double price;
+  double price;
 }

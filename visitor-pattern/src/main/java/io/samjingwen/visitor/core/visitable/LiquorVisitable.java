@@ -7,14 +7,14 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class LiquorVisitable implements Visitable {
 
-    private final Liquor liquor;
+  private final Liquor liquor;
 
-    public double getPrice(){
-        return liquor.getPrice();
-    }
+  public double getPrice() {
+    return liquor.getPrice();
+  }
 
-    @Override
-    public double accept(Visitor visitor) {
-        return visitor.visit(this);
-    }
+  @Override
+  public double accept(Visitor visitor) {
+    return visitor.visit(this);
+  }
 }

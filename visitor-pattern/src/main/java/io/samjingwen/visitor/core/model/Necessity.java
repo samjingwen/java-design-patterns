@@ -6,5 +6,5 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public final class Necessity {
-    double price;
+  double price;
 }

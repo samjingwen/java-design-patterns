@@ -9,20 +9,20 @@ import io.samjingwen.command.core.light.LightOffCommand;
 import io.samjingwen.command.core.light.LightOnCommand;
 
 public class Application {
-    public static void main(String[] args) {
-        RemoteControl remoteControl = new RemoteControl();
+  public static void main(String[] args) {
+    RemoteControl remoteControl = new RemoteControl();
 
-        Light light = new Light();
-        remoteControl.setCommand(0, new LightOnCommand(light));
-        remoteControl.setCommand(1, new LightOffCommand(light));
+    Light light = new Light();
+    remoteControl.setCommand(0, new LightOnCommand(light));
+    remoteControl.setCommand(1, new LightOffCommand(light));
 
-        Fan fan = new Fan();
-        remoteControl.setCommand(2, new FanOnCommand(fan));
-        remoteControl.setCommand(3, new FanOffCommand(fan));
+    Fan fan = new Fan();
+    remoteControl.setCommand(2, new FanOnCommand(fan));
+    remoteControl.setCommand(3, new FanOffCommand(fan));
 
-        remoteControl.pushButton(0);
-        remoteControl.pushButton(1);
-        remoteControl.pushButton(2);
-        remoteControl.pushButton(3);
-    }
+    remoteControl.pushButton(0);
+    remoteControl.pushButton(1);
+    remoteControl.pushButton(2);
+    remoteControl.pushButton(3);
+  }
 }

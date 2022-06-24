@@ -7,14 +7,14 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class NecessityVisitable implements Visitable {
 
-    private final Necessity necessity;
+  private final Necessity necessity;
 
-    public double getPrice(){
-        return necessity.getPrice();
-    }
+  public double getPrice() {
+    return necessity.getPrice();
+  }
 
-    @Override
-    public double accept(Visitor visitor) {
-        return visitor.visit(this);
-    }
+  @Override
+  public double accept(Visitor visitor) {
+    return visitor.visit(this);
+  }
 }
